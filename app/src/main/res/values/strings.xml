@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ForwardsFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mbappe">Mbappe</string>
+    <string name="dybala">Dybala</string>
+    <string name="chicharito">Chicharito</string>
+    <string name="dinenno">Dinenno</string>
+    <string name="string_dinenno">Juan Ignacio Dinenno\n\nAge: 27\nCountry: Argentina\nTeam: Pumas UNAM (Mexico)</string>
+    <string name="string_dybala">Paulo Dybala\n\nAge: 28\nCountry: Argentina\nTeam: Free Agent (Juventus 2015-2022)</string>
+    <string name="string_chicharito">Javier \'Chicharito\' Hernandez\n\nAge: 34\nCountry: Mexico\nTeam: L.A. Galaxy (USA)</string>
+    <string name="string_mbappe">Kylian Mbappe\n\nAge: 23\nCountry: France\nTeam: PSG (France)</string>
+</resources>

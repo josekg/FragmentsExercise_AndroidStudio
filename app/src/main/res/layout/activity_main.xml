@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbappe"
+            android:layout_margin="5dp"
+            android:textSize="12sp"
+            android:backgroundTint="@color/mbappe_color"
+            android:onClick="loadMbappeFragment"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dybala"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/dybala_color"
+            android:textSize="12sp"
+            android:layout_margin="5dp"
+            android:onClick="loadDybalaFragment"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chicharito"
+            android:backgroundTint="@color/ch14_color"
+            android:textSize="11.2sp"
+            android:layout_margin="5dp"
+            android:onClick="loadChicharitoFragment"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dinenno"
+            android:backgroundTint="@color/dinenno_color"
+            android:textSize="11.2sp"
+            android:layout_margin="5dp"
+            android:onClick="loadDinennoFragment"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameToLoad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"/>
+</LinearLayout>
